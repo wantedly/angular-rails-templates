@@ -1,30 +1,8 @@
 rvm:
-  - 2.3.1
-  - 2.2.2
-  - jruby-9.1.0.0
-  - ruby-head
-
-matrix:
-  allow_failures:
-    -
-      rvm: jruby-9.1.0.0
-      gemfile: gemfiles/rails_5.0.gemfile
-    -
-      rvm: jruby-9.1.0.0
-      gemfile: gemfiles/rails_head.gemfile
-    -
-      rvm: jruby-9.1.0.0
-      gemfile: gemfiles/rails_5.0_sprockets4.gemfile
-    -
-      rvm: jruby-9.1.0.0
-      gemfile: gemfiles/rails_head_sprockets4.gemfile
-    -
-      rvm: ruby-head
+  - 2.6.5
 
 gemfile:
-  - gemfiles/rails_4.2.gemfile
-  - gemfiles/rails_4.2_sprockets4.gemfile
-  - gemfiles/rails_5.0.gemfile
-  - gemfiles/rails_5.0_sprockets4.gemfile
+  - gemfiles/rails_5_0.gemfile
+  - gemfiles/rails_6_0.gemfile
+  - gemfiles/rails_6_0_sprockets.gemfile
   - gemfiles/rails_head.gemfile
-  - gemfiles/rails_head_sprockets4.gemfile
