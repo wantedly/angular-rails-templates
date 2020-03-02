@@ -16,11 +16,10 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
-  s.add_dependency "railties", ">= 4.2", "< 6"
+  s.add_dependency "railties", ">= 4.2", "< 6.1"
   s.add_dependency "sprockets", ">= 3.0", '< 5'
   s.add_dependency "tilt"
 
   s.add_development_dependency "minitest"
   s.add_development_dependency "capybara"
-  s.add_development_dependency "uglifier"
 end
